@@ -78,7 +78,7 @@ export const projects = [
             'Responsive React/Next.js UI components aligned with visual hierarchy and accessibility',
             'Documented interaction patterns in Confluence to reduce onboarding time',
         ],
-        results: 'Reduced onboarding time by 40%, raised Lighthouse score from 78 → 94',
+        results: 'Reduced onboarding time by 40%, increased user engagement by 20%',
         artifacts: [
             { src: cs1, alt: 'CS Ethics Web App Login Wireframe' },
             { src: cs2, alt: 'CS Ethics Web App Search Wireframe' },
@@ -144,7 +144,7 @@ export const projects = [
             'Order processing system with shopping cart and checkout features',
             'RESTful API enabling seamless communication between frontend and backend'
         ],
-        results: 'Successfully delivered as a capstone coursework project; praised for clean UI, stable API design, and well-structured database implementation',
+        results: 'Successfully delivered as a coursework project; praised for clean UI, stable API design, and well-structured database implementation',
         artifacts: [
             { src: bookscriptHome, alt: 'Graphic Bookstore Home Page with featured titles' },
             { src: bookscriptCatalog, alt: 'Graphic Bookstore catalog browsing and filtering interface' },
