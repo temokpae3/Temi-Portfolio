@@ -101,8 +101,8 @@ export const projects = [
         role: 'Frontend development, UI/UX design, prototyping, wireframing',
         process: [
             'Conducted user research with anime communities to understand music discovery habits',
-            'Designed low-fidelity wireframes and interactive prototypes in Figma',
-            'Developed responsive React components for playlists, song ratings, and discussions',
+            'Designed low-fidelity wireframes and high fidelity mockups for interactive prototypes in Figma',
+            'Developed responsive components in Django for playlists, song ratings, and discussions',
             'Iterated designs based on user testing and community feedback'
         ],
         solution: [
@@ -123,7 +123,7 @@ export const projects = [
             { src: kmProto4, alt: 'KimiNoMelody Upload Song High-Fidelity Prototype' },
             { src: kmProto5, alt: 'KimiNoMelody Profile High-Fidelity Prototype' },
         ],
-        techStack: ['HTML', 'CSS', 'JavaScript', 'Balsamiq', 'UI/UX Design'],
+        techStack: [ 'Balsamiq', 'UI/UX Design', 'HTML', 'CSS', 'JavaScript', 'Python', 'Django', 'PostgreSQL', 'MVC', 'AJAX', 'JSON', 'JQuery', 'HTTP Requests' ],
     },
     {
         title: 'BookScript - Web Application Development Coursework Project',
@@ -132,9 +132,8 @@ export const projects = [
         role: 'Full-stack development, UI/UX design, API integration',
         process: [
             'Designed user flows and high-fidelity mockups in Figma',
-            'Implemented responsive frontend pages using HTML, CSS, JavaScript, and React.js',
+            'Implemented responsive frontend pages using HTML, CSS, TypeScript, and React.js',
             'Developed REST API endpoints with Java (Gradle) for authentication, catalog browsing, and ordering',
-            'Integrated AJAX and TypeScript for dynamic UI interactions and real-time updates',
             'Created MySQL schema for users, inventory, and orders',
             'Performed iterative testing and debugging based on course requirements'
         ],
@@ -152,7 +151,7 @@ export const projects = [
         ],
         techStack: [
             'Figma', 'HTML', 'CSS', 'JavaScript', 'TypeScript',
-            'React.js', 'AJAX', 'MySQL', 'Java', 'Gradle', 'REST API'
+            'React.js', 'MySQL', 'Java', 'Gradle', 'REST API'
         ],
     },
 ];
