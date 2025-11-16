@@ -195,10 +195,33 @@ const ProjectCaseStudy = ({ project }) => {
       </CardContent>
 
       {/* Enlarged Image Dialog */}
-      <Dialog open={open} onClose={handleClose} maxWidth="lg">
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        maxWidth="lg"
+        aria-labelledby="enlarged-dialog-title"
+        aria-describedby="enlarged-dialog-description"
+      >
+        {/* Hidden heading for screen readers */}
+        <Typography id="enlarged-dialog-title" variant="srOnly">
+          Project artifact
+        </Typography>
+
         <IconButton
           onClick={handleClose}
-          sx={{ position: 'absolute', right: '0.5rem', top: '0.5rem', color: 'white', zIndex: 1 }}
+          aria-label="Close dialog"
+          sx={{
+            position: 'absolute',
+            right: '0.5rem',
+            top: '0.5rem',
+            color: 'white',
+            backgroundColor: '#233E4E',
+            '&:hover': { backgroundColor: '#233E4E' },
+            '&:focus-visible': {
+              outline: '0.1em solid #233E4E', 
+              outlineOffset: '0.1em',
+            },
+          }}
         >
           <CloseIcon />
         </IconButton>
@@ -206,20 +229,22 @@ const ProjectCaseStudy = ({ project }) => {
         <DialogContent sx={{ p: 0, backgroundColor: '#000' }}>
           <img
             src={selectedImg}
-            alt="Enlarged design artifact"
+            alt="Screenshot of project design artifact"
+            id="enlarged-dialog-description"
             loading="lazy"
             style={{
-              width: '90vw',
-              maxWidth: '80rem',
-              height: 'auto',
+              maxWidth: '90vw',
               maxHeight: '90vh',
+              width: 'auto',
+              height: 'auto',
               display: 'block',
-              margin: '2rem auto',
+              margin: 'auto',
               borderRadius: '0.5rem',
             }}
           />
         </DialogContent>
       </Dialog>
+
     </Card>
   );
 };
