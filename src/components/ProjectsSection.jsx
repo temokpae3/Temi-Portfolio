@@ -12,7 +12,7 @@ const ProjectsSection = () => (
   >
     <Container>
       <Typography variant="h4" component="h1" align="center" sx={{ mb: 6}}>
-        UI/UX Case Studies
+        Projects
       </Typography>
 
       {projects.map((project, idx) => (

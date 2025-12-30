@@ -84,7 +84,7 @@ const HeroSection = () => {
           maxWidth: '50rem',
         }}
       >
-        M.Eng. Computer Science and Applications at Virginia Tech (In Progress)
+        M.Eng Computer Science & Applications at Virginia Tech
       </Typography>
 
       <Typography
@@ -97,18 +97,6 @@ const HeroSection = () => {
         }}
       >
         B.S. Computer Science at SUNY Oswego
-      </Typography>
-
-      <Typography
-        component="h4"
-        sx={{
-          color: 'rgba(255,255,255,0.95)',
-          fontSize: { xs: '0.9rem', sm: '1.05rem', md: '1.2rem' },
-          mb: { xs: '0.5rem', sm: '0.625rem' },
-          maxWidth: '50rem',
-        }}
-      >
-        Minor in Information Science at SUNY Oswego
       </Typography>
     </Box>
   );

@@ -39,11 +39,11 @@ import bookscriptDashboard from '../assets/bookscript-dashboard.png';
 export const projects = [
     {
         title: 'FoodieSafety',
-        timeframe: 'Aug 2024 – Present',
-        background: 'Created a platform to give users insights on food recalls from FDA/USDA.',
+        timeframe: 'August 2024 – December 2025',
+        background: 'Created a platform to give customers insights on food recalls from FDA/USDA data and help them make informed food choices.',
         role: 'Frontend & UI/UX design, prototyping, Figma mockups',
         process: [
-            'User research and surveys to identify pain points',
+            'User research to identify pain points',
             'High-fidelity Wireframes and mockups in Figma',
             'Prototyping in Figma and React.js',
             'Iterated based on usability testing feedback',
@@ -53,7 +53,7 @@ export const projects = [
             'Accessible, responsive UI with WCAG compliance',
             'Pattern libraries for consistent design',
         ],
-        results: 'Lighthouse score increased from 78 → 94; positive feedback from stakeholders',
+        results: 'Lighthouse score increased from 78 → 98; positive feedback from stakeholders',
         artifacts: [
             { src: foodie1, alt: 'FoodieSafety Landing Page' },
             { src: foodie2, alt: 'FoodieSafety Recall Page' },
@@ -67,18 +67,19 @@ export const projects = [
     {
         title: 'Web Developer – Virginia Tech',
         timeframe: 'May 2025 – Sept 2025',
-        background: 'Full-stack platform UI/UX improvements for 100+ daily users.',
+        background: 'Full-stack platform for CS Ethics Web App to manage articles, users, and tags.',
         role: 'Frontend development and UI/UX design',
         process: [
+            'Team meetings to gather requirements and understand user needs',
             'Converted Figma mockups to React/Next.js components',
             'Improved usability and accessibility',
-            'Collaborated with design and research teams in Agile sprints',
+            'Collaborated with designers and engineers in Agile sprints',
         ],
         solution: [
             'Responsive React/Next.js UI components aligned with visual hierarchy and accessibility',
-            'Documented interaction patterns in Confluence to reduce onboarding time',
+            'Documented interaction patterns in Confluence to reduce onboarding time for new developers',
         ],
-        results: 'Reduced onboarding time by 40%, increased user engagement by 20%',
+        results: 'Reduced onboarding time by 40%, increased user engagement by 50%',
         artifacts: [
             { src: cs1, alt: 'CS Ethics Web App Login Wireframe' },
             { src: cs2, alt: 'CS Ethics Web App Search Wireframe' },
@@ -92,15 +93,15 @@ export const projects = [
             { src: csProto6, alt: 'CS Ethics Web App Search Functionality Prototype' },
             { src: csProto7, alt: 'CS Ethics Web App Tag Management Prototype' },
         ],
-        techStack: ['React.js', 'Next.js', 'Figma', 'Tailwind CSS', 'MongoDB', 'Confluence', 'UI/UX Design'],
+        techStack: ['React.js', 'Next.js', 'Figma', 'Tailwind CSS', 'Jira', 'Confluence', 'UI/UX Design'],
     },
     {
-        title: 'KimiNoMelody - User Interface Software Coursework Project',
+        title: 'KimiNoMelody',
         timeframe: 'January 2025 – May 2025',
         background: 'Web application for anime music fans to explore, rate, and discuss anime songs while creating mood-based playlists.',
         role: 'Frontend development, UI/UX design, prototyping, wireframing',
         process: [
-            'Conducted user research with anime communities to understand music discovery habits',
+            'Conducted user research on anime communities to understand music discovery habits',
             'Designed low-fidelity wireframes and high fidelity mockups for interactive prototypes in Figma',
             'Developed responsive components in Django for playlists, song ratings, and discussions',
             'Iterated designs based on user testing and community feedback'
@@ -126,9 +127,9 @@ export const projects = [
         techStack: [ 'Balsamiq', 'UI/UX Design', 'HTML', 'CSS', 'JavaScript', 'Python', 'Django', 'PostgreSQL', 'MVC', 'AJAX', 'JSON', 'JQuery', 'HTTP Requests' ],
     },
     {
-        title: 'BookScript - Web Application Development Coursework Project',
+        title: 'BookScript',
         timeframe: 'August 2024 – December 2024',
-        background: 'Coursework project for a full-stack web application that allows users to browse, search, and purchase manga while managing inventory and user accounts.',
+        background: 'A full-stack web application that allows users to browse, search, and purchase manga while managing inventory and user accounts.',
         role: 'Full-stack development, UI/UX design, API integration',
         process: [
             'Designed user flows and high-fidelity mockups in Figma',
